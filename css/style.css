@@ -97,13 +97,22 @@ nav ul li a{
 	line-height: 31px;
 }
 
-.watch-op{
+.watch.op{
+margin: 10px auto;
+}
 
+.watch-op p {
+	text-align: center;
+	color: white;
+
+}
+.watch-op span{
+	font-size: 25px;
 }
 p{
 	font-family: lato regular, sans-serif;
-	font-size: 24px;
-	margin: 18px 130px;
+	font-size: 23px;
+	margin: 18px 41px;
 
 }
 h4{
@@ -112,8 +121,9 @@ h4{
 	font-weight: bold;
 	margin: 17px 0;
 	color: #7f2f00;
-
+	margin-left: 42px;
 }
+
 /*<div class="watch-op">
 			<h4>Watch One Piece Episodes English Subbed & Dubbed at StreamOP</h4>
 				<p>	Welcome to WatchOP!. Everyweek we will have the latest one piece episode 1 hour right after japan TV, You can Watch<br> One piece with english subbed or english dubbed, Watch All Movies, OVA, Special's here at <span class="highlight">Stream One Piece.</span> Most of our videos are<br> high quality and HD you can select a various formats 1080p, 720p , 360p. Watch episodes in high quality for free!!.<br> Upcoming One Piece Episode!</p>
