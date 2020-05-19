@@ -36,8 +36,8 @@ h1{
 	background-image:url('../img/header.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
-	/*box-sizing: border-box;
-*/	margin: 10px 10px 0px 10px;
+	box-sizing: border-box;
+	margin: 10px 10px 0px 10px;
 	/*position: relative; 
 	overflow: hidden;*/	
 }
@@ -50,7 +50,6 @@ h1{
 
 nav{
 	height: 40px;
-	/*width: 1464px;*/
 	background: url('../img/menu.png') no-repeat 0 0;
 	background-size: 100%;
 	margin: 10px 10px 10px 10px;
