@@ -18,14 +18,8 @@ h1{
 }
 .wrapper{
 	width: 960px;
-	/*height: 100%;*/
 	margin: 0 auto;
-	/*padding-top: 287px;*/
 }
-/*.imgg{
-	max-width: 100%;
-	border-radius: 7px;
-}*/
 .op-banner h1{
 	color: white;
 	margin: 0 auto;
