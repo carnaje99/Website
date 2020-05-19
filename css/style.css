@@ -16,25 +16,12 @@ h1{
 	text-transform: uppercase;
 	letter-spacing: 2.6px;
 }
-button.cta{
-	font-size: 32px;
-	font-weight: bold;
-	color: white;
-	background: #002a32;
-	display: inline-block;
-	box-shadow: 0 0 0 3px  rgba(0,42,50,.1);
-	padding: 15px 20px;
-	border-radius: 16px;
-	font-family: lato bold, sans-serif;
-	text-decoration: none;
 
-}
 .wrapper{
 	width: 1100px;
 	/*height: 100%;*/
 	margin: 0 auto;
 	/*padding-top: 287px;*/
-	
 }
 /*.imgg{
 	max-width: 100%;
@@ -46,7 +33,8 @@ button.cta{
     text-align: center;
     width: 100%;
     line-height: 112px;
-    padding-top: 287px;
+    padding-top: 300px;
+
 }
 .op-banner{
 /*	width: 100%;*/
@@ -55,6 +43,7 @@ button.cta{
 	background-image:url('../img/header.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
+
 	/*box-sizing: border-box;
 */	margin: 10px 10px 0px 10px;
 	/*position: relative; 
@@ -62,7 +51,7 @@ button.cta{
 }
 
 nav{
-	height: 55px;
+	height: 45px;
 	/*width: 1464px;*/
 	background: url('../img/menu.png') no-repeat 0 0;
 	background-size: 100%;
@@ -88,14 +77,16 @@ nav ul li a{
 	display: block;
 	height: 100%;
 	box-sizing: border-box;
-	font-size: 31px;
+	font-size: 23px;
 	font-family: lato black, sans-serif;
 	font-weight: bold;
 	text-decoration: none;
 	color: white;
 	text-transform: uppercase;
 	padding: 12px 36px;
-	line-height: 31px;
+	line-height: 23px;
+	margin: 0 auto;
+
 }
 
 .watch.op{
@@ -122,8 +113,112 @@ h4{
 	font-weight: bold;
 	margin: 17px 0;
 	color: #7f2f00;
+}
+
+h3{
+		font-family: lato black, sans-serif;
+		font-size: 35px;
+		font-weight: bold;
+		font-style: italic;
+		color: #7f2f00;
+		text-align: center;
+		margin-top: 25px;
+		margin-bottom: 40px;
+}
+h2{
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.register-now{
+	margin: 0 auto;
+	height: 80px;
+	box-sizing: border-box;
 
 }
+.register-now h2{
+	font-family: lato black, sans-serif;
+	text-align: center;
+	margin-top: 0;
+}
+
+.container{
+	text-align: center;
+	margin: 0;
+}
+.btn{
+	border: none;
+	background-color: rgb(2, 54, 64);
+	padding: 10px 25px;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	margin: 10px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 15px;
+	outline: none;
+	
+}
+/*.btn:hover {
+		background-color: rgb(0, 42, 50);
+
+}*/
+.btn:active,
+button.cta:active{
+	background-color: #0d5664;
+}
+
+.crewop{
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+
+.about-op h2{
+	font-family: lato black, sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.about-op p{
+	font-size: 28px;
+	margin: 0 40px;
+	text-indent: 70px;
+	text-align: justify;
+}
+footer{
+	margin-top: 60px;
+	margin bottom: 40px;
+	color: #7f2f00;
+	font-size: 25px; 
+}
+footer ul{
+	text-align: center
+}
+footer ul li{
+	display: inline-block;
+	margin: 0 3px;
+}
+footer a{
+	color: #7f2f00;
+}
+footer a:hover{
+	color: white;
+}
+
+
+
+.popup{
+	display: none;
+}
+/*<div class="register-now">
+			<h2>REGISTER NOW</h2>
+			<button class="cta">Sign up now!</button>	
+</div>*/
+/*<div class="OP-latest-episode">
+			<h3>One Piece LATEST EPISODE IS ONLINE! CLICK HERE TO WATCH!!!</h2>*/
 
 /*<div class="watch-op">
 			<h4>Watch One Piece Episodes English Subbed & Dubbed at StreamOP</h4>
