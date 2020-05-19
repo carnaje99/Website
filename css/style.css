@@ -19,6 +19,7 @@ h1{
 .wrapper{
 	width: 960px;
 	margin: 0 auto;
+	position: relative;
 }
 .op-banner h1{
 	color: white;
@@ -49,6 +50,7 @@ h1{
 }
 
 nav{
+	width: 100%;
 	height: 40px;
 	background: url('../img/menu.png') no-repeat 0 0;
 	background-size: 100%;
@@ -58,8 +60,8 @@ nav{
 	top: 0;
 }
 
-nav ul{
-	margin: 0;
+nav ul{	
+	margin: 0 auto;
 	padding: 0;
 
 }
@@ -82,7 +84,8 @@ nav ul li a{
 	text-transform: uppercase;
 	padding: 12px 36px;
 	line-height: 23px;
-	margin: 0 auto;
+	margin: -1px auto;
+	text-indent: -25px;
 
 }
 
