@@ -16,7 +16,10 @@ h1{
 	text-transform: uppercase;
 	letter-spacing: 2.6px;
 }
-
+.page_wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
 .wrapper{
 	width: 1100px;
 	/*height: 100%;*/
